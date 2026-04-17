@@ -56,8 +56,8 @@ def doctor_app():
     deleted_doctor = doctor_store.delete_doctor(1)
     logger.info(f"Deleted doctor: {deleted_doctor}")
     logger.info(f"remaining doctors: {len(doctor_store.get_all_doctors())}")
-    #error handling - get doctor by id    logger.info("--error handling - get doctor by id--")
-    logger.info("---error handling - get doctor by id--")
+    #error handling - get doctor by id
+    logger.info("--error handling - get doctor by id--")
     try:
         doctor_store.update_doctor(999, "Non-existent")
     except DoctorNotFoundException as e:
@@ -79,7 +79,6 @@ def patient_app():
     patient_store.add_patient(patient2)
     patient_store.add_patient(patient3)
     logger.info(f"added 3 patients")
-    return patient_store
 
     #read - get all patients
     logger.info("--read - get all patients--")
@@ -102,7 +101,8 @@ def patient_app():
    
     #error handling - get patient by id
     logger.info("--error handling - get patient by id--")
-    try:        patient_store.get_patient(999)
+    try:
+        patient_store.get_patient(999)
     except PatientNotFoundException as e:
         logger.error(f"exception caught: {e}")
     return patient_store
