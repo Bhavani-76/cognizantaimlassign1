@@ -3,9 +3,6 @@ create doctor not found exception to handle cases where a doctor is not found in
 """
 
 class DoctorNotFoundException(Exception):
-    """
-    DoctorNotFoundException class to handle cases where a doctor is not found in the store
-    """
-    def __init__(self, message="Doctor not found"):
-        self.message = message
-        super().__init__(self.message)
+    def __init__(self, doctor_id):
+        self.doctor_id = doctor_id
+        super().__init__(f"Doctor with ID {doctor_id} not found")

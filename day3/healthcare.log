@@ -1,1 +1,22 @@
 2026-04-16 09:50:04,221 - healthcare_logger - INFO - app run
+2026-04-17 04:50:42,596 - healthcare_logger - INFO - Created doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 04:50:42,596 - healthcare_logger - INFO - Created doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 04:50:42,596 - healthcare_logger - INFO - Created patient: Patient(id=1, name=John Doe, dob=1993-05-15, ailment=Hypertension)
+2026-04-17 04:50:42,596 - healthcare_logger - INFO - Created patient: Patient(id=2, name=Jane Doe, dob=1998-03-20, ailment=Asthma)
+2026-04-17 04:50:42,596 - healthcare_logger - INFO - Created appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1993-05-15, ailment=Hypertension), doctor=Doctor(id=1, name=Dr. Smith, specialty=Cardiology), date=2024-06-01, time=10:00:00)
+2026-04-17 04:50:42,596 - healthcare_logger - INFO - Created appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1998-03-20, ailment=Asthma), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
+2026-04-17 04:50:42,596 - healthcare_logger - INFO - app run
+2026-04-17 04:50:48,752 - healthcare_logger - INFO - Created doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 04:50:48,752 - healthcare_logger - INFO - Created doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 04:50:48,752 - healthcare_logger - INFO - Created patient: Patient(id=1, name=John Doe, dob=1993-05-15, ailment=Hypertension)
+2026-04-17 04:50:48,752 - healthcare_logger - INFO - Created patient: Patient(id=2, name=Jane Doe, dob=1998-03-20, ailment=Asthma)
+2026-04-17 04:50:48,752 - healthcare_logger - INFO - Created appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1993-05-15, ailment=Hypertension), doctor=Doctor(id=1, name=Dr. Smith, specialty=Cardiology), date=2024-06-01, time=10:00:00)
+2026-04-17 04:50:48,752 - healthcare_logger - INFO - Created appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1998-03-20, ailment=Asthma), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
+2026-04-17 04:50:48,752 - healthcare_logger - INFO - app run
+2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created patient: Patient(id=1, name=John Doe, dob=1993-05-15, ailment=Hypertension)
+2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created patient: Patient(id=2, name=Jane Doe, dob=1998-03-20, ailment=Asthma)
+2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1993-05-15, ailment=Hypertension), doctor=Doctor(id=1, name=Dr. Smith, specialty=Cardiology), date=2024-06-01, time=10:00:00)
+2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1998-03-20, ailment=Asthma), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
+2026-04-17 04:51:37,611 - healthcare_logger - INFO - app run

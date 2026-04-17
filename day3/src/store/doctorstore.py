@@ -1,8 +1,19 @@
 """create doctor crud opertaion"""
-import sys
+import sys 
 import os
-from models.doctor import Doctor
-from exceptions.doctor_not_found_exception import DoctorNotFoundException
+#add project root to python path
+project_root = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..")
+)
+sys.path.append(project_root)
+
+
+from conf.logger_conf import setup_logger
+"""
+Entry point for the appliaction. This module initializes the application and starts the main loop.
+
+"""
+logger = setup_logger()
 class DoctorStore:
     """
     DoctorStore class to manage doctor records
@@ -47,10 +58,10 @@ class DoctorStore:
             if specialty:
                 doctor.specialty = specialty
                 
-    def delete_doctor(self, doctor_id: int):
-        """
-        delete a doctor from the store
-        """
-        logger.info(f"Deleting doctor with id: {doctor_id}")
-        if doctor_id in self.doctors:
-            del self.doctors[doctor_id]
+    
+    def delete_doctor(self, doctor_id):
+        if doctor_id not in self.doctors:
+            raise DoctorNotFoundException(doctor_id)
+        del self.doctors[doctor_id]
+
+        
