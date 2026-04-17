@@ -7,7 +7,8 @@ project_root = os.path.abspath(
 )
 sys.path.append(project_root)
 
-
+from src.models.doctor import Doctor
+from src.exceptions.doctor_not_found_exception import DoctorNotFoundException
 from conf.logger_conf import setup_logger
 """
 Entry point for the appliaction. This module initializes the application and starts the main loop.
@@ -33,25 +34,24 @@ class DoctorStore:
         get all doctors
         """
         logger.info("Getting all doctors")
-        return self.doctors
+        return self.doctors.values()
 
     def get_doctor_by_id(self, doctor_id: int):
         """
         get a doctor by id
         """
         logger.info(f"Getting doctor with id: {doctor_id}")
-        for doctor in self.doctors:
+        for doctor in self.doctors.values():
             if doctor.id == doctor_id:
                 return doctor
-        raise DoctorNotFoundException(f"Doctor with id {doctor_id} not found")
-        return None
+        raise DoctorNotFoundException(doctor_id)
 
     def update_doctor(self, doctor_id: int, name: str = None, specialty: str = None):
         """
         update a doctor's information
         """
         logger.info(f"Updating doctor with id: {doctor_id}")
-        doctor = self.get_doctor(doctor_id)
+        doctor = self.get_doctor_by_id(doctor_id)
         if doctor:
             if name:
                 doctor.name = name

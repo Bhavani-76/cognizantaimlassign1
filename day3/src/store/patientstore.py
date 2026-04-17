@@ -24,7 +24,7 @@ class PatientStore:
         self.patients = {}
 
     def add_patient(self, patient):
-        self.patients[patient.patient_id] = patient
+        self.patients[patient.id] = patient
 
     def get_patient(self, patient_id):
         if patient_id not in self.patients:
@@ -40,3 +40,10 @@ class PatientStore:
         if patient_id not in self.patients:
             raise PatientNotFoundException(patient_id)
         del self.patients[patient_id]
+
+    def get_all_patients(self):
+        """
+        get all patients
+        """
+        logger.info("Getting all patients")
+        return list(self.patients.values())

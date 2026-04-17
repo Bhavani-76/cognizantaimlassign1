@@ -20,3 +20,467 @@
 2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1993-05-15, ailment=Hypertension), doctor=Doctor(id=1, name=Dr. Smith, specialty=Cardiology), date=2024-06-01, time=10:00:00)
 2026-04-17 04:51:37,611 - healthcare_logger - INFO - Created appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1998-03-20, ailment=Asthma), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
 2026-04-17 04:51:37,611 - healthcare_logger - INFO - app run
+2026-04-17 06:03:10,386 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:03:10,387 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:03:10,387 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:03:10,387 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:03:10,387 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:03:10,387 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:03:10,387 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:03:10,387 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:03:10,388 - healthcare_logger - INFO - Retrieved doctor: 1
+2026-04-17 06:03:10,388 - healthcare_logger - INFO - Retrieved doctor: 2
+2026-04-17 06:03:10,388 - healthcare_logger - INFO - Retrieved doctor: 3
+2026-04-17 06:03:10,388 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:03:10,388 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:03:34,247 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:03:49,256 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:03:49,256 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:03:49,256 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:03:49,257 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:03:49,258 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:03:49,258 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:03:49,258 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:03:49,258 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:03:49,258 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:03:49,258 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:04:03,682 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:04:03,683 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:04:03,683 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:04:22,505 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:04:22,505 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:04:22,505 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:04:22,505 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:04:22,505 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:04:22,505 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:04:22,506 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:04:22,507 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:04:22,507 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:05:07,920 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:05:07,921 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:05:07,921 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:05:36,889 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:05:36,890 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:05:36,890 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:05:47,099 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:05:47,099 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:05:47,099 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:05:47,099 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:06:12,498 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:06:12,499 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:06:12,499 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:06:12,500 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:06:12,501 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:06:12,501 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:06:12,501 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:06:12,501 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:06:12,501 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:06:12,501 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:06:12,501 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - DEBUG: doctors count: 2, patients count: 3
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - DEBUG: doctor[0] = Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - DEBUG: doctor[1] = Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - DEBUG: patient[0] = Patient(id=1, name=John Doe, dob=1990-01-01, ailment=Hypertension)
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - DEBUG: patient[1] = Patient(id=2, name=Jane Doe, dob=1995-05-05, ailment=Diabetes)
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - DEBUG: patient[2] = Patient(id=3, name=Jim Doe, dob=2000-10-10, ailment=Asthma)
+2026-04-17 06:06:12,503 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:06:21,166 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:06:21,167 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:06:21,167 - healthcare_logger - INFO - DEBUG: doctors count: 2, patients count: 3
+2026-04-17 06:06:21,168 - healthcare_logger - INFO - DEBUG: doctor[0] = Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:06:21,168 - healthcare_logger - INFO - DEBUG: doctor[1] = Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:06:21,168 - healthcare_logger - INFO - DEBUG: patient[0] = Patient(id=1, name=John Doe, dob=1990-01-01, ailment=Hypertension)
+2026-04-17 06:06:21,168 - healthcare_logger - INFO - DEBUG: patient[1] = Patient(id=2, name=Jane Doe, dob=1995-05-05, ailment=Diabetes)
+2026-04-17 06:06:21,168 - healthcare_logger - INFO - DEBUG: patient[2] = Patient(id=3, name=Jim Doe, dob=2000-10-10, ailment=Asthma)
+2026-04-17 06:06:21,168 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:07:38,963 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:07:38,964 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:07:38,964 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - DEBUG: doctors count: 2, patients count: 3
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - DEBUG: doctor[0] = Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - DEBUG: doctor[1] = Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - DEBUG: patient[0] = Patient(id=1, name=John Doe, dob=1990-01-01, ailment=Hypertension)
+2026-04-17 06:07:38,965 - healthcare_logger - INFO - DEBUG: patient[1] = Patient(id=2, name=Jane Doe, dob=1995-05-05, ailment=Diabetes)
+2026-04-17 06:07:38,966 - healthcare_logger - INFO - DEBUG: patient[2] = Patient(id=3, name=Jim Doe, dob=2000-10-10, ailment=Asthma)
+2026-04-17 06:07:38,966 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:08:14,157 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:08:14,158 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:14,158 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - added 2 appointments
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - --read - get all appointments--
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1990-01-01, ailment=Hypertension), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1995-05-05, ailment=Diabetes), doctor=Doctor(id=3, name=Dr. Williams, specialty=Pediatrics), date=2024-06-02, time=11:00:00)
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - --update appointment--
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - Updated appointment: None
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - --delete appointment--
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - Deleted appointment: None
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - remaining appointments: 1
+2026-04-17 06:08:14,159 - healthcare_logger - INFO - --error handling - get appointment by id--
+2026-04-17 06:08:44,150 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:08:44,151 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:08:44,152 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - added 2 appointments
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - --read - get all appointments--
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1990-01-01, ailment=Hypertension), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1995-05-05, ailment=Diabetes), doctor=Doctor(id=3, name=Dr. Williams, specialty=Pediatrics), date=2024-06-02, time=11:00:00)
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - --update appointment--
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Updated appointment: None
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - --delete appointment--
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - Deleted appointment: None
+2026-04-17 06:08:44,152 - healthcare_logger - INFO - remaining appointments: 1
+2026-04-17 06:08:44,153 - healthcare_logger - INFO - --error handling - get appointment by id--
+2026-04-17 06:08:44,153 - healthcare_logger - ERROR - exception caught: Appointment with ID 999 not found
+2026-04-17 06:08:44,153 - healthcare_logger - INFO - healthcare application run completed successfully
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:08:50,304 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:08:50,305 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:08:50,305 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - added 2 appointments
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - --read - get all appointments--
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1990-01-01, ailment=Hypertension), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1995-05-05, ailment=Diabetes), doctor=Doctor(id=3, name=Dr. Williams, specialty=Pediatrics), date=2024-06-02, time=11:00:00)
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - --update appointment--
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - Updated appointment: None
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - --delete appointment--
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - Deleted appointment: None
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - remaining appointments: 1
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - --error handling - get appointment by id--
+2026-04-17 06:08:50,306 - healthcare_logger - ERROR - exception caught: Appointment with ID 999 not found
+2026-04-17 06:08:50,306 - healthcare_logger - INFO - healthcare application run completed successfully
+2026-04-17 06:09:05,044 - healthcare_logger - INFO - starting healthcare application
+2026-04-17 06:09:05,044 - healthcare_logger - INFO - Doctor app run
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Adding doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Adding doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Adding doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - added 3 doctors
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - --read - get all doctors--
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=2, name=Dr. Johnson, specialty=Neurology)
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Retrieved doctor: Doctor(id=3, name=Dr. Williams, specialty=Pediatrics)
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - --read - get doctor by id--
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Retrieved doctor by id: Doctor(id=1, name=Dr. Smith, specialty=Cardiology)
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - --update doctor--
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Updating doctor with id: 1
+2026-04-17 06:09:05,045 - healthcare_logger - INFO - Getting doctor with id: 1
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Updated doctor: None
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - --delete doctor--
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Deleted doctor: None
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - remaining doctors: 2
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - ---error handling - get doctor by id--
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Updating doctor with id: 999
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Getting doctor with id: 999
+2026-04-17 06:09:05,046 - healthcare_logger - ERROR - exception caught: Doctor with ID 999 not found
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Patient app run
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - added 3 patients
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Appointment app run
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Getting all doctors
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - Getting all patients
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - --create - add appointments--
+2026-04-17 06:09:05,046 - healthcare_logger - INFO - added 2 appointments
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - --read - get all appointments--
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=1, patient=Patient(id=1, name=John Doe, dob=1990-01-01, ailment=Hypertension), doctor=Doctor(id=2, name=Dr. Johnson, specialty=Neurology), date=2024-06-01, time=10:00:00)
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - Retrieved appointment: Appointment(id=2, patient=Patient(id=2, name=Jane Doe, dob=1995-05-05, ailment=Diabetes), doctor=Doctor(id=3, name=Dr. Williams, specialty=Pediatrics), date=2024-06-02, time=11:00:00)
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - --update appointment--
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - Updated appointment: None
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - --delete appointment--
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - Deleted appointment: None
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - remaining appointments: 1
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - --error handling - get appointment by id--
+2026-04-17 06:09:05,047 - healthcare_logger - ERROR - exception caught: Appointment with ID 999 not found
+2026-04-17 06:09:05,047 - healthcare_logger - INFO - healthcare application run completed successfully

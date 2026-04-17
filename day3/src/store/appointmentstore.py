@@ -6,7 +6,7 @@ project_root = os.path.abspath(
 )
 sys.path.append(project_root)
 
-
+from src.exceptions.appointment_not_found_exception import AppointmentNotFoundException
 from conf.logger_conf import setup_logger
 """
 Entry point for the appliaction. This module initializes the application and starts the main loop.
