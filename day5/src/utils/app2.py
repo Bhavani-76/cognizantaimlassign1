@@ -11,13 +11,13 @@ sys.path.append(project_root)
 from src.configurations.conf import Config
 from src.dataloaders.customer_json_data_loader import CustomerJSONDataLoader
 from src.stores.customer_store_impl import CustomerStoreImpl
-
+from src.utils.pipeline_runner import PipelineRunner
 def display_customers(customer_store):
     config = Config()
     env = config.app_env
     print(f"App Environment: {env}")
 
-    if env == "Production":
+    if env == "Testing":
         data_loader = CustomerJSONDataLoader()
         data_loader.load_data(config.resource_path, customer_store)
 

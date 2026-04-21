@@ -6,6 +6,7 @@ from src.models.full_name import FullName
 from src.dataloaders.customer_data_loader import CustomerDataLoader
 from src.stores.customer_store_impl import CustomerStoreImpl
 
+
 class CustomerJSONDataLoader(CustomerDataLoader):
     def load_data(self, file_path, customer_store: CustomerStoreImpl):
         try:
