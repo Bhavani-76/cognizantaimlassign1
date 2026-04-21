@@ -3,7 +3,7 @@ class PipelineRunner:
         self.stages= []
     def add_stage(self, stage):
         self.stages.append(stage)
-    def run(self, data):
+    def run(self, **kwargs):
         for stage in self.stages:
-            data = stage(data)
+            data = stage(**kwargs)
         return data

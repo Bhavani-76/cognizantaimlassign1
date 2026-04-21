@@ -17,13 +17,21 @@ from src.dataloaders.customer_csv_data_loader import CustomerCSVDataLoader
 from src.dataloaders.customer_json_data_loader import CustomerJSONDataLoader
 from src.stores.customer_store_impl import CustomerStoreImpl
 from src.utils.pipeline_runner import PipelineRunner
-def load_customers(customer_store):
+def load_customers(**kwargs):
     config = Config()
+    customer_store = kwargs['customer_store']
     env=config.app_env
-    if env=="Production":
+    if env=="Testing":
+      data_loader = CustomerJSONDataLoader()
+      data_loader.load_data(config.resource_path, customer_store)
+    elif env=="Production":
+      data_loader = CustomerCSVDataLoader()
+      data_loader.load_data(config.resource_path, customer_store)
+    else:
       data_loader = CustomerJSONDataLoader()
       data_loader.load_data(config.resource_path, customer_store)
     return customer_store
+
 def display_customers(customer_store):
    for customer in customer_store.get_all_customers():
       print(f"customer_id: {customer.customer_id}")
@@ -32,9 +40,41 @@ def display_customers(customer_store):
       print(f"phone_no: {customer.phone_no}")
       print("-------------")
          
+def update_customer(**kwargs):
+    customer_store = kwargs['customer_store']
+    customer_id = kwargs['customer_id']
+    faker = Faker()
+    customer.name.first_name = faker.first_name()
+    customer.name.last_name = faker.last_name()
+    customer.email = faker.email()
+    customer.phone_no = faker.random_int(min=1000000000, max=9999999999)
+    customer_store.update_customer(customer_id, customer)
+    return customer_store
+ 
+def get_customer_by_id(**kwargs):
+    customer_id = kwargs['customer_id']
+    customer = customer_store.get_customer(customer_id)
+    print(f"customer_id: {customer.customer_id}")
+    print(f"name: {customer.name.first_name} {customer.name.last_name}")    
+    print(f"email: {customer.email}")
+    print(f"phone_no: {customer.phone_no}")
+    print("--------------------")
+
+def delete_customer(**kwargs):
+    customer_id = kwargs['customer_id']
+    customer_store = kwargs['customer_store']
+    customer_store.delete_customer(customer_id)
+    print(f"Customer with id {customer_id} deleted successfully.")
+
+ 
+   
 if __name__ == "__main__":  
    customer_store = CustomerStoreImpl()
-   pipeline = PipelineRunner()
-   pipeline.add_stage(load_customers)
-   pipeline.add_stage(display_customers)
-   pipeline.run(customer_store)
+   pipeline_runner = PipelineRunner()
+   pipeline_runner.add_stage(load_customers)
+   pipeline_runner.add_stage(display_customers)
+   pipeline_runner.add_stage(update_customer)
+   pipeline_runner.add_stage(get_customer_by_id)
+   pipeline_runner.add_stage(delete_customer)
+   pipeline_runner.run(customer_store=customer_store, customer_id=1)
+ 
